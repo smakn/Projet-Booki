@@ -1,0 +1,229 @@
+
+/* s applique a tout le programme*/
+*, ::before, ::after{
+	box-sizing: border-box;
+/* paginer tout le document*/	
+     margin: 0;
+     padding: 0;
+}
+body{
+	max-width: 1300px;
+	background-color:beige;
+	height: 300vh;
+	display: m;
+}
+header.header{
+	 display: flex;
+}
+.nav a {
+     color: black;
+     text-decoration: none;
+}
+nav.nav ul{
+	 display:flex;
+	 list-style-type:none;
+	 justify-content: space-between;
+	 min-width: 250px;
+	 margin-left:800px ;
+
+}
+nav.nav a:hover{
+     color: blue;
+
+
+}
+h1 {
+	font-family: 'Inter', sans-serif;
+	/*font italique ou oblique*/
+	font-style: normal;
+	/*taille  de fonte du text*/
+	font-size: 20px;
+	/*text en gras*/
+	font-weight: bolder;
+
+	line-height: 15px;
+	color: rgb(7, 7, 7);
+}
+h2{
+	font-weight: 10;
+	font-size: 15px;
+	line-height: 15px;
+	color: var(--main-color);
+	padding-bottom: 15px;
+	margin-top: 0;
+	text-align: justify;
+}
+
+h3 {
+	font-weight: 800;
+	font-size: 25px;
+	line-height: 27px;
+	color: black;
+	margin-bottom: 0;
+}
+/*bare de recherche*/
+label{
+	display: block;
+	font: 1rem'Fira sans', sans-serif;
+}
+input,
+	label{
+        margin: 0.4rem 0;
+    }
+	/* bloc 6*/
+
+.hebergements{
+	/* mettre les element a la suite des autres*/
+	display: flex;
+	/* mettre les element en dessous des autres*/
+	flex-wrap: wrap;
+	margin: 4px;
+	padding: 4px;
+}
+/* bloc 6 1*/
+
+.Total button{
+	border-style: none;
+}
+.Total{
+	max-width: 800px;
+	margin: 4px;
+	padding: 4px;
+	background-color: rgb(240, 237, 237);
+	height: 90vh;
+	border-radius: 20px;
+}
+.hebergements1{
+	/* mettre les element a la suite des autres*/
+	display: flex;
+	/* mettre les element en dessous des autres*/
+	flex-wrap: wrap;
+	max-width: 760px;
+	height: 70vh;
+	border-radius: 20px;
+}
+
+.item{
+	background-color:white;
+	/* largeur image*/
+	width: 240px;
+	/* hauteur image*/
+	height: 230px;
+	margin: 4px;
+	padding: 4px;
+	overflow: hidden;
+	flex-shrink: 0;
+	border-radius: 20px;
+}
+
+.item img{
+	/* largeur image*/
+	width: 230px;
+	/* hauteur image*/
+	height: 150px;
+	overflow: hidden;
+	flex-shrink: 0;
+	border-radius: 20px;
+}
+	/* bloc 6 2*/
+	.hebergements2{
+		/* mettre les element a la suite des autres*/
+		display: flex;
+		/* mettre les element en dessous des autres*/
+		flex-wrap: wrap;
+		max-width: 400px;
+		margin: 4px;
+		padding: 4px;
+		background-color: rgb(240, 237, 237);
+		height: 90vh;
+		border-radius: 20px;
+	}
+.item2{
+	background-color:white;
+	/* largeur image*/
+	width: 350px;
+	/* hauteur image*/
+	height: 160px;
+	margin: 4px;
+	padding: 4px;
+	overflow: hidden;
+	flex-shrink: 0;
+	border-radius: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+.item2 img{
+	/* largeur image*/
+	width: 140px;
+	/* hauteur image*/
+	height: 140px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.C2etoiles{
+	/*background: red;*/
+	display: inline-block;
+	cursor: pointer;
+	color: blue;
+}
+/*.C2etoiles:hover{
+	background:green;
+}*/
+.C2etoiles div{
+	display: inline-block;
+	/*padding: 0;*/
+}
+.C2etoiles div::after{
+	content: "\002605";
+}
+/* bloc*/
+.bloc{
+	display: flex;
+}
+.items{
+	background-color:white;
+	border-radius: 20px;
+	width: 280px;
+	height: 370px; 
+	margin: 10px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.items img{
+	width: 280px;
+	height: 330px;
+}
+.global{
+	display: flex;
+	flex-wrap: wrap;
+}
+.ile{
+
+	flex-wrap: wrap;
+}
+.items1{
+	background-color:white;
+	border-radius: 20px;
+	width: 280px;
+	height: 190px; 
+	margin: 10px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.items1 img{
+	width: 280px;
+	height: 150px;
+}
+.items2{
+	background-color:white;
+	border-radius: 20px;
+	width: 280px;
+	height: 170px; 
+	margin: 10px;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.items2 img{
+	width: 280px;
+	height: 130px;
+}
