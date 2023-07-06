@@ -218,14 +218,15 @@ input,
 	overflow: hidden;
 	flex-shrink: 0;
 }
-.heb{
-	background-color:white;
-	width: 230px;
-	height: 155px;
+.carte{
 	overflow: hidden;
 	flex-shrink: 0;
 	border-radius: 20px;
 }
+.carte1{
+	padding-left: 4%;
+}
+
 	/* bloc 6 2*/
 	.hebergements2{
 		/* mettre les element a la suite des autres*/
