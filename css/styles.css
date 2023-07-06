@@ -10,7 +10,7 @@
 
 body{
 	max-width: 1300px;
-	background-color:rgb(212, 212, 199);
+	background-color:rgb(255, 255, 251);
 	height: 200vh;
 	margin: 5px;
 	padding-left: 2%;
@@ -65,6 +65,9 @@ h1 {
 	border-radius: 20px;
 	width: 190px;
 	height: 40px;
+	padding:5px;
+	margin: 5px;
+	padding-left:20px;
 	font-size: 20px; 
 }
 .button1 i{
@@ -80,6 +83,9 @@ h1 {
 	border-radius: 20px;
 	width: 150px;
 	height: 40px;
+	padding:5px;
+	margin: 5px;
+	padding-left:20px;
 	font-size: 20px; 
 }
 .button2 i{
@@ -95,6 +101,9 @@ h1 {
 	border-radius: 20px;
 	width: 170px;
 	height: 40px; 
+	padding:5px;
+	margin: 5px;
+	padding-left:20px;
 	font-size: 20px;
 }
 .button3 i{
@@ -110,6 +119,9 @@ h1 {
 	border-radius: 20px;
 	width: 220px;
 	height: 40px; 
+	padding:5px;
+	margin: 5px;
+	padding-left:20px;
 	font-size: 20px;
 }
 .button4 i{
@@ -281,15 +293,11 @@ input,
 	cursor: pointer;
 	color: blue;
 }
-/*.C2etoiles:hover{
-	background:green;
-}*/
-.C2etoiles div{
+.C2etoiles1{
+	/*background: red;*/
 	display: inline-block;
-	/*padding: 0;*/
-}
-.C2etoiles div::after{
-	content: "\002605";
+	cursor: pointer;
+	color:rgb(240, 237, 237);
 }
 .C2e{
 	margin-top: 20px;
@@ -297,9 +305,7 @@ input,
 .C2{
 	margin-top: 50px;
 }
-.item h4{
-	padding-left: 4%;
-}
+
 .item h5{
 	padding-left: 4%;
 }
@@ -317,6 +323,7 @@ input,
 .items{
 	background-color:white;
 	border-radius: 20px;
+	border-style:outset;
 	width: 280px;
 	height: 370px; 
 	margin: 10px;
@@ -340,6 +347,7 @@ input,
 }
 .items1{
 	background-color:white;
+	border-style:outset;
 	border-radius: 20px;
 	width: 280px;
 	height: 190px; 
@@ -354,6 +362,7 @@ input,
 }
 .items2{
 	background-color:white;
+	border-style:outset;
 	border-radius: 20px;
 	width: 280px;
 	height: 170px; 
