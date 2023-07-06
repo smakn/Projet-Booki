@@ -10,7 +10,7 @@
 
 body{
 	max-width: 1300px;
-	background-color:beige;
+	background-color:rgb(212, 212, 199);
 	height: 200vh;
 	margin: 5px;
 	padding-left: 2%;
@@ -46,11 +46,92 @@ h1 {
 	line-height: 15px;
 	color: rgb(7, 7, 7);
 }
+/*filtre*/
 .bloc{
      vertical-align: middle;
      justify-content: space-between;
-     width: 800px;
+     width: 900px;
 }
+.button {
+	border-radius: 10px;
+	width: 80px;
+	height: 40px; 
+	padding:5px;
+	margin: 5px;
+	font-size: 20px;
+}
+.button1 {
+    border:3px solid rgb(240, 237, 237);
+	border-radius: 20px;
+	width: 190px;
+	height: 40px;
+	font-size: 20px; 
+}
+.button1 i{
+    border:3px solid rgb(240, 237, 237);  padding: 0; margin: 0;
+	background-color:rgb(240, 237, 237) ;
+	border-radius: 15px;
+	width: 35px;
+	height: 35px;
+	font-size: 20px; 
+}
+.button2 {
+	border:3px solid rgb(240, 237, 237);
+	border-radius: 20px;
+	width: 150px;
+	height: 40px;
+	font-size: 20px; 
+}
+.button2 i{
+    border:3px solid rgb(240, 237, 237);  padding: 0; margin: 0;
+	background-color:rgb(240, 237, 237) ;
+	border-radius: 15px;
+	width: 35px;
+	height: 35px;
+	font-size: 20px; 
+}
+.button3 {
+	border:3px solid rgb(240, 237, 237);
+	border-radius: 20px;
+	width: 170px;
+	height: 40px; 
+	font-size: 20px;
+}
+.button3 i{
+    border:3px solid rgb(240, 237, 237);  padding: 0; margin: 0;
+	background-color:rgb(240, 237, 237) ;
+	border-radius: 15px;
+	width: 35px;
+	height: 35px;
+	font-size: 20px; 
+}
+.button4 {
+	border:3px solid rgb(240, 237, 237);
+	border-radius: 20px;
+	width: 220px;
+	height: 40px; 
+	font-size: 20px;
+}
+.button4 i{
+    border:3px solid rgb(240, 237, 237);  padding: 0; margin: 0;
+	background-color:rgb(240, 237, 237) ;
+	border-radius: 15px;
+	width: 35px;
+	height: 35px;
+	font-size: 20px; 
+}
+.bloc1 i{
+	flex-wrap: wrap;
+    border:3px solid rgb(240, 237, 237);
+	border-radius: 15px;
+	width: 35px;
+	height: 35px;
+	font-size: 20px;
+}
+.blo{
+	justify-content: space-between;
+}
+
 h2{
 	font-weight: 100;
 	font-size: 20px;
@@ -285,42 +366,7 @@ input,
 	width: 280px;
 	height: 130px;
 }
-.button {
-	border-radius: 10px;
-	width: 80px;
-	height: 40px; 
-	padding:5px;
-	margin: 5px;
-	font-size: 20px;
-}
-.button1 {
-    border:3px solid rgb(240, 237, 237); padding: 5px; margin: 5px;
-	border-radius: 10px;
-	width: 120px;
-	height: 40px;
-	font-size: 20px; 
-}
-.button2 {
-	border:3px solid rgb(240, 237, 237); padding: 5px; margin: 5px;
-	border-radius: 10px;
-	width: 100px;
-	height: 40px;
-	font-size: 20px; 
-}
-.button3 {
-	border:3px solid rgb(240, 237, 237); padding: 5px; margin: 5px;
-	border-radius: 10px;
-	width: 120px;
-	height: 40px; 
-	font-size: 20px;
-}
-.button4 {
-	border:3px solid rgb(240, 237, 237); padding: 5px; margin: 5px;
-	border-radius: 10px;
-	width: 180px;
-	height: 40px; 
-	font-size: 20px;
-}
+
 
 .archive{
 	display: flex;
