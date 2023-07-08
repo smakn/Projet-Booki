@@ -6,7 +6,13 @@
      margin: 0;
      padding: 0;
 }
-
+button{
+	background-color: blue;
+	border-radius: 10px;
+	border-style: none;
+	width: 10%;
+	height: 25px;
+}
 
 body{
 	max-width: 100%;
