@@ -15,9 +15,18 @@ body{
 	margin: 5px;
 	padding-left: 2%;
 }
+header div{
+  width: 210px;
+}
+header img{
+	width: 20px;
+	height: 25px;
+}
 header.header{
 	 display: flex;
 	 margin: 10px;
+	 justify-content: space-between;
+	 align-items: center;
 }
 .nav a {
      color: black;
@@ -27,10 +36,6 @@ nav.nav ul{
 	 display:flex;
 	 list-style-type:none;
 	 justify-content: space-between;
-	 min-width: 250px;
-	 margin-left:800px ;
-
-
 }
 nav.nav a:hover{
      color: blue;
@@ -245,7 +250,6 @@ input,
 		display: flex;
 		/* mettre les element en dessous des autres*/
 		flex-direction: column;
-		justify-content: space-between;
 		width: 35%;
 		padding: 5px;
 		background-color: rgb(240, 237, 237);
@@ -257,13 +261,12 @@ input,
 	flex-direction: column;
 	background-color:white;
 	/* largeur image*/
-	width: 90%;
+
 	/* hauteur image*/
 	height: 160px;
-	padding: 4px;
+	padding: 5px;
 	border-radius: 20px;
 	margin-bottom: 25px;
-	justify-content: space-between;
 	
 }
 .etoile{
@@ -301,6 +304,9 @@ input,
 .C2{
 	margin-top: 50px;
 }
+.C2e{
+	margin-left: 120px;
+}
 
 .item h5{
 	padding-left: 4%;
@@ -320,7 +326,7 @@ input,
 	background-color:white;
 	border-radius: 20px;
 	border-style:outset;
-	width: 280px;
+	width: 45%;
 	height: 370px; 
 	overflow: hidden;
 	flex-shrink: 0;
@@ -337,25 +343,24 @@ input,
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
-
-	
+	padding-block: 20px;
 }
 .global1{
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
+	width: 45%;
 }
 .ile{
-
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	width: 45%;
 	
 }
 .items1{
 	background-color:white;
 	border-style:outset;
 	border-radius: 20px;
-	width: 280px;
 	height: 190px; 
 	margin-bottom: 10px;
 	overflow: hidden;
@@ -369,7 +374,6 @@ input,
 	background-color:white;
 	border-style:outset;
 	border-radius: 20px;
-	width: 280px;
 	height: 170px; 
 	overflow: hidden;
 	flex-shrink: 0;
