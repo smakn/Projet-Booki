@@ -336,6 +336,8 @@ input,
 	height: 370px; 
 	overflow: hidden;
 	flex-shrink: 0;
+	box-shadow: 10px 10px 25px;
+	
 }
 .global h4{
 	padding-left: 4%;
@@ -371,6 +373,7 @@ input,
 	margin-bottom: 10px;
 	overflow: hidden;
 	flex-shrink: 0;
+	
 }
 .items1 img{
 	width: 280px;
