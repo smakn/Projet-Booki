@@ -56,6 +56,41 @@ h1 {
 	line-height: 15px;
 	color: rgb(7, 7, 7);
 }
+
+.d{
+	background-color:rgb(240, 237, 237) ;
+	border: rgb(240, 237, 237);
+	margin: 0;
+	width: 15%;
+}
+  form {
+	display: flex;
+	vertical-align: middle;
+	justify-content: space-between;
+	border-color: rgb(240, 237, 237);
+	border-style: solid ;
+	border-radius: 10px;
+    width: 29%;
+	height: 50px;
+  }
+  .fa-location-dot{
+   text-align: center;
+  }
+  input {
+    border: 0;
+    font-size: 16px;
+  }
+  .search {
+	margin: 0;
+    width: 50%;
+  }
+  .submit {
+    margin: 0;
+    width: 32%;
+
+	border:#1c87c9;
+    background-color: #1c87c9;
+  }
 /*filtre*/
 .bloc{
      vertical-align: middle;
@@ -71,11 +106,12 @@ h1 {
 .button1 {
     border:3px solid rgb(240, 237, 237);
 	border-radius: 20px;
-	width: 190px;
+	width: 20%;
 	height: 40px;
 	font-size: 20px; 
 }
 .button1 i{
+	text-align: center;
     border:3px solid rgb(240, 237, 237);  padding: 0; margin: 0;
 	background-color:rgb(240, 237, 237) ;
 	color: blue;
@@ -90,11 +126,12 @@ h1 {
 .button2 {
 	border:3px solid rgb(240, 237, 237);
 	border-radius: 20px;
-	width: 150px;
+	width: 16%;
 	height: 40px;
 	font-size: 20px; 
 }
 .button2 i{
+	text-align: center;
     border:3px solid rgb(240, 237, 237);  padding: 0; margin: 0;
 	background-color:rgb(240, 237, 237) ;
 	color: blue;
@@ -106,11 +143,12 @@ h1 {
 .button3 {
 	border:3px solid rgb(240, 237, 237);
 	border-radius: 20px;
-	width: 170px;
+	width: 20%;
 	height: 40px; 
 	font-size: 20px;
 }
 .button3 i{
+	text-align: center;
     border:3px solid rgb(240, 237, 237);  padding: 0; margin: 0;
 	background-color:rgb(240, 237, 237) ;
 	color: blue;
@@ -121,12 +159,13 @@ h1 {
 }
 .button4 {
 	border:3px solid rgb(240, 237, 237);
-	border-radius: 20px;
-	width: 250px;
+	border-radius: 30px;
+	width: 25%;
 	height: 40px; 
 	font-size: 20px;
 }
 .button4 i{
+	text-align: center;
     border:3px solid rgb(240, 237, 237);  padding: 0; margin: 0;
 	background-color:rgb(240, 237, 237) ;
 	color: blue;
@@ -138,16 +177,17 @@ h1 {
 }
 
 .bloc1 i{ 
-	display: flex;
-	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-between;
     border:3px solid rgb(240, 237, 237);
+	color: blue;
 	border-radius: 15px;
-	width: 35px;
-	height: 35px;
+	width: 30px;
+	height: 30px;
 	font-size: 20px;
 }
-.blo{
-	justify-content: space-between;
+.bloc1{
+	width: 80%;
 }
 
 h2{
@@ -259,6 +299,10 @@ input,
 		border-radius: 20px;
 	}
 	/*Image 9*/
+	.text{
+		margin: auto;
+		width: 80%;
+	}
 .item2{
 	flex-direction: column;
 	background-color:white;
@@ -283,7 +327,7 @@ input,
 .item22{
 	background-color:white;
 		/* largeur image*/
-		width: 160px;
+		width: 50%;
 		/* hauteur image*/
 		height: 150px;
 		overflow: hidden;
@@ -327,12 +371,11 @@ input,
 .items{
 	background-color:white;
 	border-radius: 20px;
-	border-style:outset;
 	width: 45%;
 	height: 370px; 
 	overflow: hidden;
 	flex-shrink: 0;
-	box-shadow: 5px 5px 15px;
+	box-shadow: 5px 5px 15px rgb(240, 237, 237);
 	
 }
 .global h4{
@@ -363,33 +406,42 @@ input,
 }
 .items1{
 	background-color:white;
-	border-style:outset;
 	border-radius: 20px;
 	height: 190px; 
 	margin-bottom: 10px;
 	overflow: hidden;
 	flex-shrink: 0;
-	box-shadow: 5px 5px 15px;
+	box-shadow: 5px 5px 15px rgb(240, 237, 237);
 	
 }
 .items1 img{
-	width: 280px;
+	width: 100%;
 	height: 150px;
 }
 .items2{
 	background-color:white;
-	border-style:outset;
 	border-radius: 20px;
-	height: 170px; 
+	height: 130px; 
 	overflow: hidden;
 	flex-shrink: 0;
-	box-shadow: 5px 5px 15px;
+	box-shadow: 5px 5px 15px rgb(240, 237, 237);
 }
 .items2 img{
-	width: 280px;
-	height: 130px;
+	width: 100%;
+	height: 90px;
 }
-
+.items3{
+	background-color:white;
+	border-radius: 20px;
+	height: 150px; 
+	overflow: hidden;
+	flex-shrink: 0;
+	box-shadow: 5px 5px 15px rgb(240, 237, 237);
+}
+.items3 img{
+	width: 100%;
+	height: 120px;
+}
 
 .archive{
 	display: flex;
@@ -400,6 +452,7 @@ input,
 	margin-top: 50px;
 
 }
+
 .arch{
 	margin-top: 20px;
 	margin-left: 100px;
