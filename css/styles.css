@@ -21,11 +21,11 @@ body{
 	padding-left: 2%;
 }
 header div{
-  width: 210px;
+  width: 18%;
 }
 header img{
-	width: 100px;
-	height: 50px;
+	width: 12%;
+	height: 75px;
 }
 header.header{
 	 display: flex;
@@ -58,10 +58,14 @@ h1 {
 }
 
 .d{
+	
 	background-color:rgb(240, 237, 237) ;
 	border: rgb(240, 237, 237);
 	margin: 0;
 	width: 15%;
+}
+.d i{
+	padding: auto;
 }
   form {
 	display: flex;
@@ -120,9 +124,7 @@ h1 {
 	height: 35px;
 	font-size: 20px; 
 }
-.i{
 
-}
 .button2 {
 	border:3px solid rgb(240, 237, 237);
 	border-radius: 20px;
@@ -272,7 +274,7 @@ input,
 
 .item img{
 	/* largeur image*/
-	width: 240px;
+	width: 100%;
 	/* hauteur image*/
 	height: 140px;
 
@@ -403,6 +405,7 @@ input,
 	justify-content: space-between;
 	width: 45%;
 	
+	
 }
 .items1{
 	background-color:white;
@@ -462,46 +465,65 @@ input,
 	color: black;
 	text-decoration: none;
 }
-@media all and (max-width: 860px){
-	.contener{
-		width: 500px;
-	}
-	
+
+@media all and (max-width: 100%){
+	.contener{width: 600px;}
+	.archive{padding: 30px 15px; height:500px ;}
+
 }
+@media all and (max-width:660px) {
+	.contener{width: 500px;}
+		.archive{padding: 30px 15px; height:500px ;}
+		.items{height: auto; }
+		.items1 {height: auto;}
+		.items3 {height: auto;}
+		.items2 {height: auto;}
+		.global1 {height: auto; width: auto;}
+		.hebergements2{height: auto;}
+		.item{height: auto; width: 100%; }
+		.item2{height: auto; width: 100%; }
+		.item22{height: auto; width: 100%; }
+		.item2 img{height:200px ; width: 100%; }
+		.C2{margin-top: 5px;}
+		.C2e{margin-left: 10px;}
+		.bloc span{  width: auto; font-size: 15px;}
+		.bloc{width: 100%;}
+		form{width: auto;}
+		body{ width: 100%; height: auto;}
+}
+
 @media all and (max-width: 560px){
-	.contener{
-		width: 100%;
-	}
+	.contener{width: 100%;}
 	.archive{padding: 30px 15px; height:500px ;}
-	.items{height: auto; }
-	.items1 {height: auto;}
-	.items3 {height: auto;}
-	.items2 {height: auto;}
-	.global1 {height: auto; width: auto;}
-	.hebergements2{height: auto;}
-	.item{height: auto; width: 100%; }
+	.items{height: auto; width: 100%; }
+	.items1 {height: auto; width: 100%; margin-bottom: 30px;}
+	.items3 {height: auto; width: 100%; }
+	.items2 {height: auto; width: 100%; }
+	.global1 {height: auto; width: 100%; display:inline; margin-bottom: 30px;}
+	.global {height: auto; width: 100%; justify-content: center; }
+	.hebergements2{height: auto; width: 100%; margin-top: 20px;}
+	.hebergements1{height: auto; width: 100%;}
+	.hebergements{height: auto; width: 100%;}
+	.Total{height: auto; width: 100%;}
+	.carte img{height: auto; width: 100%;}
+	.item{height: auto; width: auto;  }
 	.item2{height: auto; width: 100%; }
 	.item22{height: auto; width: 100%; }
-	.item2 img{height:200px ; width: 100%; }
+	.item2 img{width: 100%; }
 	.C2{margin-top: 5px;}
 	.C2e{margin-left: 10px;}
-	
+	.bloc span{  font-size: 20px;}
+	.bloc{width: auto; display:inline;}
+	form{width: auto;}
+	body{ max-width: 100%;}
+	header img{width: 25%; height: 60px; text-align: center;}
+	header div{width: 50%;}
+	header .contener{text-align: center;}
+	.ile{width: 100%; margin-top: 30px; }
+	.button{margin-right: 20px; margin-top: auto;}
+	.button1{margin-right: 20px;}
+	.button2{margin-right: 20px;}
+	.button3{margin-right: 20px;}
+	.button4{margin-right: 20px;}
 }
-@media all and (max-width: 460px){
-	header.contener{
-		text-align: center;
-	}
-	.archive{padding: 30px 15px; height:500px ;}
-	.items{height: auto; }
-	.items1 {height: auto;}
-	.items3 {height: auto;}
-	.items2 {height: auto;}
-	.global1 {height: auto; width: auto;}
-	.hebergements2{height: auto;}
-	.item{height: auto; width: 100%; }
-	.item2{height: auto; width: 100%; }
-	.item22{height: auto; width: 100%; }
-	.item2 img{height:200px ; width: 100%; }
-	.C2{margin-top: 5px;}
-	.C2e{margin-left: 10px;}
-}
+
