@@ -104,25 +104,38 @@ h1 {
   }
 /*filtre*/
 .bloc{
+	display: flex;
+		/* renvoyer vers la gauche*/
+	padding: 20px 20px 20px 0;
      vertical-align: middle;
      justify-content: space-between;
      width: 80%;
+
 }
 .button {
+	display: flex;
+    align-items: center;
 	margin-top: 5px;
 	width: 80px;
 	height: 40px; 
-	font-size: 20px;
+	font-size: 18px;
 }
-.button1 {
+.tag strong {
+	justify-content: space-between;
+}
+.tag {
 	display: flex;
+    align-items: center;
     border:3px solid #f2f2f2;
 	border-radius: 20px;
 	width: 20%;
 	height: 40px;
-	font-size: 20px; 
+	font-size: 18px; 
 }
-.button1 i{
+.tag i{
+	display: flex;
+	justify-content: center;
+    align-items: center;
     border:3px solid #deebff;  padding: 0; margin: 0;
 	background-color:#deebff ;
 	color: #0065fc;
@@ -132,65 +145,13 @@ h1 {
 	font-size: 20px; 
 }
 
-.button2 {
+#location-id{
 	display: flex;
-	border:3px solid #f2f2f2 ;
-	border-radius: 20px;
-	width: 16%;
-	height: 40px;
-	font-size: 20px; 
+	justify-content: center;
+    align-items: center;	
 }
-.button2 i{
-    border:3px solid #deebff;  padding: 0; margin: 0;
-	background-color:#deebff  ;
-	color: #0065fc;
-	border-radius: 15px;
-	width: 35px;
-	height: 35px;
-	font-size: 20px; 
-}
-.button3 {
-	display: flex;
-	border:3px solid #f2f2f2;
-	border-radius: 20px;
-	width: 20%;
-	height: 40px; 
-	font-size: 20px;
-}
-.button3 i{
-	margin-left: auto;
-	margin-top: auto;
-    border:3px solid #deebff;  padding: 0; margin: 0;
-	background-color:#deebff ;
-	color: #0065fc;
-	border-radius: 15px;
-	width: 35px;
-	height: 35px;
-	font-size: 20px; 
-}
-.button4 {
-	display: flex;
-	text-align: center;
-	border:3px solid #f2f2f2;
-	border-radius: 30px;
-	width: 25%;
-	height: 40px; 
-	font-size: 20px;
-}
-.button4 i{
-    border:3px solid #deebff;  padding: 0; margin: 0;
-	background-color:#deebff  ;
-	color: #0065fc;
-	border-radius: 15px;
-	width: 35px;
-	height: 35px;
-	font-size: 20px;
-
-}
-
 .bloc1 i{ 
 	text-align: center;
-	justify-content: space-between;
     border:3px solid rgb(240, 237, 237);
 	color: #0065fc;
 	border-radius: 15px;
@@ -199,11 +160,7 @@ h1 {
 	font-size: 20px;
 }
 .bloc1{
-	width: 80%;
-}
-
-.bloc1 i{
-	display: block;	
+	padding: 0 20px 20px 0;
 }
 h2{
 	font-weight: 100;
@@ -212,8 +169,7 @@ h2{
 	color: var(--main-color);
 	padding-bottom: 15px;
 	margin-top: 0;
-	text-align: justify;
-	
+	text-align: justify;	
 }
 
 h3 {
@@ -222,7 +178,7 @@ h3 {
 	line-height: 15px;
 	color: black;
 	margin-bottom: 0;
-	margin: 10px;
+	margin: 10px 10px 10px 0;
 }
 /*bare de recherche*/
 label{
@@ -245,7 +201,7 @@ input,
 	flex-wrap: wrap;
 	width: 100%;
 	margin: 4px;
-	padding: 4px;
+	padding: 4px 4px 4px 0;
 	justify-content: space-between;
 }
 /* bloc 6 1*/
@@ -296,9 +252,11 @@ input,
 	overflow: hidden;
 	flex-shrink: 0;
 	border-radius: 20px;
+
 }
 .carte1{
 	padding-left: 4%;
+    padding: 10px;
 }
 
 	/* bloc 6 2*/
@@ -366,9 +324,9 @@ input,
 	margin-top: 50px;
 }
 .C2e{
-	margin-left: 120px;
-}
 
+	margin-left: 170px;
+}
 .item h5{
 	padding-left: 4%;
 }
@@ -376,13 +334,7 @@ input,
 	padding-left: 4%;
 }
 /* bloc*/
-.bloc{
-	display: flex;
-	/* renvoyer vers la gauche*/
-    padding-left: 30px;
-	padding: 20px;
 
-}
 .items{
 	background-color:white;
 	border-radius: 20px;

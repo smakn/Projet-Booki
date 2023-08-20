@@ -44,7 +44,7 @@
             <!--bloc bare de recherche-->
             <section>
                 <div class="A">
-                    <form > <i class="fa-solid fa-location-dot d"></i>
+                    <form > <i id="location-id" class="fa-solid fa-location-dot d"></i>
                         <input type="text" name="text" class="search" placeholder="Marceille, France">
                         <input type="submit" name="submit" class="submit" value="Recherche" style="color: aliceblue";>
                       </form>
@@ -52,13 +52,16 @@
 
                 <div class="bloc">
                     <span  class="button"><strong>Filtre</strong></span>
-                    <span class="button1"> <i class="fa-solid fas fa-money-bill"></i> <strong>Economique</strong></span>
-                    <span class="button2"> <i class="fa-solid fas fa-person"></i><strong>Familial</strong></span>
-                    <span class="button3"> <i class="fa-solid fas fa-heart"></i><strong>Romantique</strong> </span>
-                    <span class="button4"> <i class="fa-solid fa-dog"></i><strong>Animaux autorisés</strong> </span>     
+                    <span class="tag"> <i class="fa-solid fas fa-money-bill"></i> <strong>Economique</strong></span>
+                    <span class="tag"> <i class="fa-solid fas fa-person"></i><strong>Familial</strong></span>
+                    <span class="tag"> <i class="fa-solid fas fa-heart"></i><strong>Romantique</strong> </span>
+                    <span class="tag"> <i class="fa-solid fa-dog"></i><strong>Animaux autorisés</strong> </span>     
                 </div >
-                <div >
-                    <span class="bloc1"> <i class="fa-solid fa-info"></i>Plus de 500 logements sont disponible dans cette ville</span>
+                <div class="bloc1">
+                        <i class="fa-solid fa-info"></i>
+                    <span > 
+                        Plus de 500 logements sont disponible dans cette ville
+                    </span>
                 </div>
             </section>
         </section>
@@ -186,7 +189,7 @@
 
                     
                 <div class="text">
-                    <div >
+                    <div class="c">
                         <br><h2>Les plus populaires <i class="fa-solid fa-star C2e"></i></h2>
                     </div>
                     <!--Image 7-->
